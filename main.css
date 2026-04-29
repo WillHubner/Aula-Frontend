@@ -107,3 +107,17 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width:780px) {
+   .container{
+    flex-direction: column;
+   } 
+   .imgbody{
+    width: 250px;
+    height: 250px;
+   }
+   .imgtopo{
+    display: none;
+   }
+
+}
